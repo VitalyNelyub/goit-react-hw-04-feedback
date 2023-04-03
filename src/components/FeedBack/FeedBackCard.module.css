@@ -1,0 +1,68 @@
+.feedback {
+  width: 600px;
+  border: 2px solid rgb(160, 160, 197);
+  border-radius: 12px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: azure;
+  box-shadow: 10px 15px 5px rgba(86, 84, 84, 0.56);
+}
+
+.title {
+  font-size: 40px;
+  color: rgb(88, 85, 85);
+}
+
+button {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  width: 100px;
+  padding: 7px;
+  border-radius: 12px;
+  transition: all, 250ms;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 15px 5px rgba(86, 84, 84, 0.56);
+}
+
+.btn__success {
+  background-color: lime;
+}
+
+.btn__info {
+  background-color: yellow;
+}
+
+.btn__danger {
+  background-color: red;
+}
+
+.ststistic {
+  margin-top: 20px;
+  width: 400px;
+  border: 2px solid rgb(160, 160, 197);
+  border-radius: 12px;
+  margin: 60px auto;
+  box-shadow: 10px 15px 5px rgba(86, 84, 84, 0.56);
+  background-color: rgb(206, 237, 237);
+}
+
+.secondary__title {
+  font-size: 32px;
+  color: rgb(88, 85, 85);
+}
+
+.feed__stat {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.raiting {
+  margin-left: 20px;
+  font-size: 24px;
+}
