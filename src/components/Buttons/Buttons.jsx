@@ -1,4 +1,5 @@
 import css from '../FeedBack/FeedBackCard.module.css';
+import PropTypes from 'prop-types';
 
 export default function Buttons(
  { handleClickGood,
@@ -31,3 +32,9 @@ export default function Buttons(
     </div>
   );
 }
+
+Buttons.propType = {
+  handleClickGood: PropTypes.func.isRequired,
+  handleClickNeutral: PropTypes.func.isRequired,
+  handleClickBad: PropTypes.func.isRequired,
+};
